@@ -37,7 +37,7 @@ const Aboutarea = () => {
                                     <img src={quotesblue} alt='image' />
                                     <h5 className='roboto black'>
                                         {/* “A Lawyer’s professional ethics bars him from judging his clients. One has to go by the documents and is obliged to provide the best tailored strategy in the interest for his client” */}
-                                        {quotesdata.quotes}
+                                        {quotesdata?.quotes}
                                     </h5>
                                     <h4 className='black py-2 mt-3'>
                                         Kumar Deepraj
@@ -59,7 +59,7 @@ const Aboutarea = () => {
                                     <h3 className="roboto firstheading">OBJECTIVE</h3>
                                     <p className="roboto">
                                         {/* To provide unwavering advocacy and expert legal guidance, ensuring justice and protection of rights for every client, while upholding the highest ethical standards and fostering trust through transparent communication and compassionate support.*/}
-                                        {quotesdata.objective}
+                                        {quotesdata?.objective}
                                     </p>
                                 </div>
 
@@ -67,7 +67,7 @@ const Aboutarea = () => {
                                     <h3 className="roboto">PURPOSE</h3>
                                     <p className="roboto">
                                         {/* Our Commitment extends beyond mere representation. We strive to build lasting relationships based on trust, integrity, and transparency. Whether one is facing a legal challenge, seeking advice, or looking to protect your rights, the office is here to guide you every step of the way. */}
-                                        {quotesdata.purpose}
+                                        {quotesdata?.purpose}
                                     </p>
                                 </div>
                             </div>

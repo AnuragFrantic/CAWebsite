@@ -4,7 +4,7 @@ import AllBanner from "../../Component/AllBanner"
 import Seo from "../../Seocomponent/Seo"
 import contactbanner from '../../assets/images/contact-banner-bg.webp'
 //import contact2 from '../../assets/images/young-attractive-emotionacontact2.jpg'
-import Info from "./info"
+import Info from "./Info"
 
 const Contact = () => {
   return (

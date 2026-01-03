@@ -34,11 +34,11 @@ const Banner = () => {
     return (
         <>
 
-            <section className="banner   d-flex align-items-center justify-content-center space position-relative "  
-              style={{
-                backgroundImage: bannerdata?.image ? `url(${formatUrl(BaseUrl, bannerdata.image)})` : "none"
-            }} >
-                
+            <section className="banner   d-flex align-items-center justify-content-center space position-relative "
+                style={{
+                    backgroundImage: bannerdata?.image ? `url(${formatUrl(BaseUrl, bannerdata?.image)})` : "none"
+                }} >
+
                 <img src={bannercircle} alt="image" className='position-absolute bannercircle img-fluid' />
                 <div className="container">
                     <div className="row pb-5">
@@ -48,7 +48,7 @@ const Banner = () => {
                                     {/* INTEGRITY.<br></br>
                                     TRANSPARENCY.<br></br>
                                     CONFIDENTIALITY. */}
-                                    {bannerdata.title && bannerdata.title.split('.').map((line, index) => (
+                                    {bannerdata?.title && bannerdata?.title.split('.').map((line, index) => (
                                         line.trim() !== '' && ( // To prevent empty strings from being rendered
                                             <span key={index}>
                                                 {line.trim()} {/* This removes any leading or trailing spaces */}
@@ -66,7 +66,7 @@ const Banner = () => {
                                 </p> */}
                                 <h2 className='roboto'>
                                     {/* PERSONALIZED legal representation and COMPASSIONATE guidance, empowering one to navigate the legal challenges with confidence and achieve the best possible outcomes, with STRATEGIC solutions, and EMPHATIC support. */}
-                                    {bannerdata.para}
+                                    {bannerdata?.para}
                                 </h2>
                             </div>
                         </div>
