@@ -3,7 +3,7 @@
 // import career from '../../assets/images/careernew.png'
 import arbitrationright from '../../assets/images/arbitrationright.jpg'
 import efficiency from '../../assets/images/efficiency.png'
-import Confidentiality from '../../assets/images/Confedentiality.png'
+import Confidentiality from '../../assets/images/confedentiality.png'
 import expertise from '../../assets/images/expertise.png'
 import Flexibility from '../../assets/images/flexibility.png'
 import claims from '../../assets/images/claims.png'
