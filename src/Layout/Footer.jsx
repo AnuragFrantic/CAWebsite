@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ArrowUpOutlined, LinkedinFilled } from '@ant-design/icons'
 import whatsapp from '../assets/images/whatsapp.png'
 import { useEffect, useState } from 'react';
-import logo from "../assets/images/real_logo.png"
+import logo from "../assets/images/logoca.png"
 
 
 const Footer = () => {

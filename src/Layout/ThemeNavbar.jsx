@@ -1,7 +1,7 @@
 //import React from 'react'
 
 import { useEffect } from "react";
-import logo from "../assets/images/real_logo.png"
+import logo from "../assets/images/logoca.png"
 
 
 const ThemeNavbar = () => {

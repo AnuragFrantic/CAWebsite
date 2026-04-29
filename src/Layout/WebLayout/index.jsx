@@ -5,7 +5,7 @@ import Header from "../Header"
 import Footer from "../Footer"
 import Banner from "../../Pages/Home/Banner";
 import React, { useEffect } from "react";
-import logo from "../../assets/images/real_logo.png"
+import logo from "../../assets/images/logoca.png"
 
 
 const WebLayout = () => {

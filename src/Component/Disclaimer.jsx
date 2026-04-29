@@ -43,17 +43,21 @@ const Disclaimer = () => {
                                 </div>
                                 <div className="modal-body">
                                     <p className="roboto px-2">
-                                        In accordance with the rules set forth by the Bar Council of India, advocates and their offices are prohibited from soliciting work or engaging in advertising.
+                                        In accordance with the guidelines of the Institute of Chartered Accountants of India (ICAI), Chartered Accountants are restricted from soliciting professional work or advertising their services. This website is created solely for informational purposes.
                                     </p>
                                     <h5 className="roboto black py-3 px-2">
                                         The user acknowledges the following:
                                     </h5>
                                     <ul className="roboto disclaimerlist" style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-                                        <li>No advertisement, personal communication, solicitation, invitation, or inducement has been made by the advocate and/or his office to solicit work or advertise via this website;</li>
-                                        <li>The website is only to provide information about the advocate, their practice areas, and expertise;</li>
-                                        <li>The information provided is available at the user’s specific request, and any materials downloaded or accessed from this website are done so at your own discretion. Use of this website does not establish a lawyer-client relationship;</li>
-                                        <li>This website is not intended to serve as a source of advertising or solicitation, nor should its content be interpreted as legal advice;</li>
-                                        <li>The advocate and his office are not responsible for any consequences arising from actions taken by you based on the information provided on this website. If the user requires legal assistance, please seek independent legal counsel, and/or appointment from the Contact Bar.</li>
+                                        <li>No advertisement, solicitation, invitation, or inducement has been made by the Chartered Accountant or the firm to solicit work through this website;</li>
+
+                                        <li>This website is intended only to provide information about the Chartered Accountant/firm, its services, and areas of expertise;</li>
+
+                                        <li>The information provided is available at the user’s specific request, and any materials downloaded or accessed from this website are done at your own discretion. Use of this website does not establish a client–professional relationship;</li>
+
+                                        <li>This website is not intended to serve as a source of advertising or solicitation, nor should its content be interpreted as financial, tax, or professional advice;</li>
+
+                                        <li>The Chartered Accountant/firm shall not be responsible for any consequences arising from actions taken based on the information provided on this website. If professional assistance is required, please contact us directly through the Contact section.</li>
                                     </ul>
                                 </div>
                                 <div className="modal-footer w-full ">
